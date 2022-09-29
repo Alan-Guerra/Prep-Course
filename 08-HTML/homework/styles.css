@@ -1,3 +1,7 @@
+h1 {
+    color: crimson;
+}
+
 img {
     width: 400px;
 }
@@ -5,13 +9,20 @@ img {
 #thirdDiv {
     height: 600px;
     width: 500px;
-    background: yellow;
+    background-color: yellow;
     padding: 50px;
-    border: 10px;
-    border-color: blue;
+    border: 10px solid green;
+    display: flex;
+    justify-content: center;
+
 }
 
-.spanId {
+#spanId {
     font-size: 18px;
     margin: 50px;
+    
+}
+
+body {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASQAAACtCAMAAAAu7/J6AAAAMFBMVEX///8AAADv7++1tbVra2siIiKJiYmMjIwdHR1ubm4YGBiRkZFzc3MnJycyMjK3t7fPvv2IAAAAk0lEQVR4nO3cyRGDQBADwPGBAYPZ/LMlhPGHGnarOwbpp1I8yHxjJrMFAAAAAAAAAADAVdY3iT1+E4mjOsgAAAAAAAAAAMDAXmRaVL/K9SCepKrbDgAAAAAAAAAAvare/vTA0u0P0aoXiffXqtsOAAAAAAAAAAAMbFpIHLGS2auDDAAAAAAAAAAADGz+kNgc3+WWEy3ZPNfNpX31AAAAAElFTkSuQmCC");
 }
