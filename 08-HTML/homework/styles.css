@@ -11,7 +11,9 @@ img {
     width: 500px;
     background-color: yellow;
     padding: 50px;
+    padding-left: 10px;
     border: 10px solid green;
+    margin: 50px;
     display: flex;
     justify-content: center;
 
@@ -20,6 +22,7 @@ img {
 #spanId {
     font-size: 18px;
     margin: 50px;
+    display: block;
     
 }
 
